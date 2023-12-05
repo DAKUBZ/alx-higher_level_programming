@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """ Finds a peak in a list of unsorted integers """
 
 
@@ -23,3 +24,5 @@ def find_peak(list_of_integers):
     if li [mid + 1] > li[mid - 1]:
         return find_peak(li[mid:])
     return find_peak(li[:mid])
+=======
+>>>>>>> 9fd2de6c56441335c21fa44904234d2b4b9d2512
